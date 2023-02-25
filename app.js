@@ -134,12 +134,6 @@ const nomes = ["Sydney Mosley",
   "Theo da Mata",
   "Brenda da Rocha"];
 
-// for (let i = 0; i < 10; i++) {
-//   const newLi = document.createElement('li');
-//   newLi.innerText = `Item ${i + 1}`;
-//   allItems.push(newLi);
-// }
-
 for (let nome of nomes) {
   const newLi = document.createElement('li');
   newLi.innerText = nome;
@@ -175,5 +169,24 @@ searchButton.addEventListener('click', e => {
   e.preventDefault();
   console.log(searchBar.value);
 })
+
+class Muscle {
+  constructor(name, origin, insertion, inervation, action, movePlan, imageId) {
+    this.name = name;
+    this.origin = origin;
+    this.insertion = insertion;
+    this.inervation = inervation;
+    this.action = action;
+    this.movePlan = movePlan;
+    this.imageId = imageId;
+  }
+}
+
+const firstMuscle = new Muscle("SUBESCAPULAR", "Fossa subescapular", "Tubérculo menor do úmero (manguito rotador)", "Nervo subescapular", "Rotação medial e adução do ombro", "Transverso", "0");
+
+console.log(JSON.stringify(firstMuscle));
+
+console.log(firstMuscle);
+
 
 showAllItems();
