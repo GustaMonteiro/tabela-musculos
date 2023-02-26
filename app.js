@@ -2,6 +2,10 @@ const searchBar = document.querySelector('#search-bar');
 const searchButton = document.querySelector('#search-button')
 const cardList = document.querySelector('#card-list');
 
+const allCards = [];
+
+const musclesJson = JSON.parse('[{"name": "SUBESCAPULAR", "origin": "Fossa subescapular", "insertion": "Tubérculo menor do úmero (manguito rotador)", "inervation": "Nervo subescapular", "action": "Rotação medial e adução do ombro", "movePlan": "Transverso", "imageId": 0}, {"name": "SUPRA-ESPINHAL", "origin": "Fossa supra espinhal da escápula", "insertion": "Tubérculo maior do úmero (manguito rotador)", "inervation": "Nervo supraescapular", "action": "Abdução do ombro", "movePlan": "Frontal", "imageId": 1}]');
+
 class Muscle {
   constructor(name, origin, insertion, inervation, action, movePlan, imageId) {
     this.name = name;
@@ -73,11 +77,13 @@ const createCard = muscle => {
   return col;
 }
 
-const musclesJson = JSON.parse('[{"name": "SUBESCAPULAR", "origin": "Fossa subescapular", "insertion": "Tubérculo menor do úmero (manguito rotador)", "inervation": "Nervo subescapular", "action": "Rotação medial e adução do ombro", "movePlan": "Transverso", "imageId": 0}, {"name": "SUPRA-ESPINHAL", "origin": "Fossa supra espinhal da escápula", "insertion": "Tubérculo maior do úmero (manguito rotador)", "inervation": "Nervo supraescapular", "action": "Abdução do ombro", "movePlan": "Frontal", "imageId": 1}]');
-
 for(let muscle of musclesJson) {
-  cardList.appendChild(createCard(new Muscle(muscle.name, muscle.origin, muscle.insertion, muscle.inervation, muscle.action, muscle.movePlan, muscle.imageId)));
+  allCards.push(createCard(new Muscle(muscle.name, muscle.origin, muscle.insertion, muscle.inervation, muscle.action, muscle.movePlan, muscle.imageId)));
 }
+
+// for(let card of allCards){
+//   cardList.appendChild(card);
+// }
 
 // const subescapular = new Muscle("SUBESCAPULAR", "Fossa subescapular", "Tubérculo menor do úmero (manguito rotador)", "Nervo subescapular", "Rotação medial e adução do ombro", "Transverso", "0");
 // const supraEspinhal = new Muscle("SUPRA-ESPINHAL", "Fossa supra espinhal da escápula", "Tubérculo maior do úmero (manguito rotador)", "Nervo supraescapular", "Abdução do ombro", "Frontal", "1");
@@ -90,40 +96,37 @@ for(let muscle of musclesJson) {
 //   allItems.push(newLi);
 // }
 
-// const showAllItems = () => {
-//   for (let item of allItems) {
-//     itemsList.appendChild(item);
-//   }
-// }
+const showAllCards = () => {
+  for (let card of allCards) {
+    cardList.appendChild(card);
+  }
+}
 
-// const removeAllItems = () => {
-//   while (itemsList.firstChild) {
-//     itemsList.removeChild(itemsList.lastChild);
-//   }
-// }
+const removeAllCards = () => {
+  while (cardList.firstChild) {
+    cardList.removeChild(cardList.lastChild);
+  }
+}
 
-// searchBar.addEventListener('input', e => {
-//   console.log(searchBar.value);
+console.log(allCards[0].firstElementChild.childNodes[1].firstElementChild.innerText);
 
-//   if (!searchBar.value) return showAllItems();
-//   removeAllItems();
+searchBar.addEventListener('input', e => {
+  console.log(searchBar.value);
 
-//   for (let item of allItems) {
-//     if (item.innerText.toLowerCase().includes(searchBar.value.toLowerCase())) {
-//       itemsList.appendChild(item);
-//     }
-//   }
-// })
+  if (!searchBar.value) return showAllCards();
+  removeAllCards();
 
-// searchButton.addEventListener('click', e => {
-//   e.preventDefault();
-//   console.log(searchBar.value);
-// })
+  for (let card of allCards) {
+    if (card.firstElementChild.childNodes[1].firstElementChild.innerText.toLowerCase().includes(searchBar.value.toLowerCase())) {
+      cardList.appendChild(card);
+    }
+  }
+})
 
 // cardList.appendChild(createCard(subescapular));
 // cardList.appendChild(createCard(supraEspinhal));
 
-// showAllItems();
+showAllCards();
 
       // <div class="col">
       //   <div class="card h-100">
