@@ -1,6 +1,7 @@
 const searchBar = document.querySelector('#search-bar');
 const searchButton = document.querySelector('#search-button')
 const cardList = document.querySelector('#card-list');
+const searchMethod = document.querySelector('#search-method');
 
 const changeNumberOfColumns = num => {
   return function () {
@@ -94,12 +95,17 @@ const createCard = muscle => {
 }
 
 for (let muscle of musclesJson) {
-  allCards.push(createCard(new Muscle(muscle.name, muscle.origin, muscle.insertion, muscle.inervation, muscle.action, muscle.movePlan, muscle.imageId)));
+  const card = createCard(new Muscle(muscle.name, muscle.origin, muscle.insertion, muscle.inervation, muscle.action, muscle.movePlan, muscle.imageId));
+  const content = `${muscle.name} ${muscle.origin} ${muscle.insertion} ${muscle.inervation} ${muscle.action} ${muscle.movePlan}`.toLowerCase();
+  allCards.push({
+    content: content,
+    card: card
+  });
 }
 
 const showAllCards = () => {
   for (let card of allCards) {
-    cardList.appendChild(card);
+    cardList.appendChild(card.card);
   }
 }
 
@@ -109,19 +115,34 @@ const removeAllCards = () => {
   }
 }
 
-console.log(allCards[0].firstElementChild.childNodes[1].firstElementChild.innerText);
+let currentSearchMethod = searchMethod.value;
 
-searchBar.addEventListener('input', e => {
-  console.log(searchBar.value);
-
-  if (!searchBar.value) return showAllCards();
+const searchMuscles = () => {
+  if (!searchBar.value)
+    return showAllCards();
   removeAllCards();
 
-  for (let card of allCards) {
-    if (card.firstElementChild.childNodes[1].firstElementChild.innerText.toLowerCase().includes(searchBar.value.toLowerCase())) {
-      cardList.appendChild(card);
+  if (currentSearchMethod == '1') {
+    for (let card of allCards) {
+      if (card.card.firstElementChild.childNodes[1].firstElementChild.innerText.toLowerCase().includes(searchBar.value.toLowerCase())) {
+        cardList.appendChild(card.card);
+      }
     }
   }
+  else {
+    for (let card of allCards) {
+      if (card.content.includes(searchBar.value.toLowerCase())) {
+        cardList.appendChild(card.card);
+      }
+    }
+  }
+}
+
+searchBar.addEventListener('input', searchMuscles)
+
+searchMethod.addEventListener('change', () => {
+  currentSearchMethod = searchMethod.value;
+  searchMuscles();
 })
 
 showAllCards();
