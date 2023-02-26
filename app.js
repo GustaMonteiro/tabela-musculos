@@ -96,10 +96,16 @@ const createCard = muscle => {
 
 for (let muscle of musclesJson) {
   const card = createCard(new Muscle(muscle.name, muscle.origin, muscle.insertion, muscle.inervation, muscle.action, muscle.movePlan, muscle.imageId));
-  const content = `${muscle.name} ${muscle.origin} ${muscle.insertion} ${muscle.inervation} ${muscle.action} ${muscle.movePlan}`.toLowerCase();
+  const all = `${muscle.name} ${muscle.origin} ${muscle.insertion} ${muscle.inervation} ${muscle.action} ${muscle.movePlan}`.toLowerCase();
   allCards.push({
-    content: content,
-    card: card
+    all: all,
+    card: card,
+    name: muscle.name,
+    origin: muscle.origin,
+    insertion: muscle.insertion,
+    inervation: muscle.inervation,
+    action: muscle.action,
+    movePlan: muscle.movePlan
   });
 }
 
@@ -115,6 +121,16 @@ const removeAllCards = () => {
   }
 }
 
+const searchBy = attribute => {
+  return () => {
+    for (let card of allCards) {
+      if (card[attribute].toLowerCase().includes(searchBar.value.toLowerCase())) {
+        cardList.appendChild(card.card);
+      }
+    }
+  }
+}
+
 let currentSearchMethod = searchMethod.value;
 
 const searchMuscles = () => {
@@ -122,19 +138,28 @@ const searchMuscles = () => {
     return showAllCards();
   removeAllCards();
 
-  if (currentSearchMethod == '1') {
-    for (let card of allCards) {
-      if (card.card.firstElementChild.childNodes[1].firstElementChild.innerText.toLowerCase().includes(searchBar.value.toLowerCase())) {
-        cardList.appendChild(card.card);
-      }
-    }
-  }
-  else {
-    for (let card of allCards) {
-      if (card.content.includes(searchBar.value.toLowerCase())) {
-        cardList.appendChild(card.card);
-      }
-    }
+  switch (currentSearchMethod) {
+    case 'name':
+      searchBy('name')();
+      break;
+    case 'origin':
+      searchBy('origin')();
+      break;
+    case 'insertion':
+      searchBy('insertion')();
+      break;
+    case 'inervation':
+      searchBy('inervation')();
+      break;
+    case 'action':
+      searchBy('action')();
+      break;
+    case 'movePlan':
+      searchBy('movePlan')();
+      break;
+    case 'all':
+      searchBy('all')();
+      break;
   }
 }
 
