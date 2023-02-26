@@ -28,3 +28,63 @@ Lábio medial do Sulco intertubercu lar do úmero
 Nervo subescapular
 Rotação medial e adução do ombro
 Sagital, frontal e transverso
+DELTÓIDE
+Terço final da clavícula, acrômio e espinha da escápula
+Tuberosidade deltoidea do úmero
+Nervo axilar
+Abdução, extensão e flexão
+Frontal, sagital e Transverso
+BÍCEPS BRAQUIAL
+Tubérculo supra glenoidal e processo coracoide
+Tuberosidade do rádio
+Nervo musculocutâneo
+Flexão e supinação do antebraço
+Transverso, sagital e frontal
+BRAQUIAL
+Face anterior da metade distal do úmero
+Processo coronoide da ulna
+Nervo musculocutâneo
+Flexão do antebraço
+Sagital
+CORACOBRAQUIAL
+Processo coracoide da escápula
+Terço médio do úmero
+Nervo musculocutâneo
+Flexão e Adução do ombro
+Transverso
+TRÍCEPS BRAQUIAL
+Tubérculo infraglenoidal, face posterior do úmero e sulco radial
+Olécrano
+Nervo radial
+Extensão do antebraço
+Sagital, frontal e transverso
+BRAQUIORRADIAL
+Crista supraepicondilar lateral do úmero
+Processo estiloide do rádio
+Nervo radial
+Pronação, supinação e Flexão do antebraço
+Sagital e transverso
+EXTENSOR RADIAL LONGO DO CARPO
+Crista supraepicondilar lateral do úmero
+Base do 2° metacarpal
+Nervo radial
+Extensão do punho e abdução da mão (desvio radial)
+Sagital, transverso e frontal
+EXTENSOR RADIAL CURTO DO CARPO
+Epicôndilo lateral do úmero
+Base do 3° metacarpal
+Nervo radial
+Extensão do punho
+Sagital e frontal
+EXTENSOR ULNAR DO CARPO
+Epicôndilo lateral do úmero
+Base do 5° metacarpal
+Nervo radial
+Extensão e adução do punho (desvio ulnar)
+Sigital e frontal
+EXTENSOR DOS DEDOS
+Epicôndilo lateral do úmero
+Falanges média e distal do 2° ao 5° dedos
+Nervo radial
+Extensão do punho
+Sagital
