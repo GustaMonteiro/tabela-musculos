@@ -37,19 +37,19 @@ Frontal, sagital e transverso
 Bíceps braquial
 Tubérculo supra glenoidal e Processo coracoide
 Tuberosidade Do rádio
-Nervo muscu- locutâneo
+Nervo musculocutâneo
 Flexão e supinação do antebraço
 Transverso, sagital e Frontal
 Braquial
 Face anterior da Metade distal do Úmero
 Processo coronoide da ulna
-Nervo muscu- locutâneo
+Nervo musculocutâneo
 Flexão do antebraço
 Sagital
 Coracobraquial
 Processo coracoide da Escápula
 Terço médio do úmero
-Nervo muscu- locutâneo
+Nervo musculocutâneo
 Flexão e adução do ombro
 Transverso
 Tríceps braquial
@@ -294,7 +294,7 @@ Adução e rotação inferior das escápulas e elevação do ombro
 Transverso E frontal
 Levantador da Escápula
 Processo transverso do atlas até à c4
-ngulo superior da escápula
+Ângulo superior da escápula
 Nervo dorsal da escápula
 Elevação e adução da escápula
 Frontal
@@ -398,13 +398,13 @@ Subcostais
 Face interna da costela
 Face interna da 2° ou 3° costela
 Nervos intercostais
-Estabili- Zação intercostal
+Estabilização intercostal
 ---
 Transverso do tórax
 Face interna Do esterno
 Face interna da 2° a 6° cartilagem costais
 Nervos intercostais
-Estabili- Zação da parte antero- inferior do tórax
+Estabilização da parte anteroinferior do tórax
 ---
 Reto do abdome
 Processo xifoide, 5° a 6° cartilagens costais
@@ -428,7 +428,7 @@ Transverso do abdome
 Cartilagens costais, Aponeurose toracolom- bar, crista ilíaca e Ligamento inguinal
 Púbis e linha alba
 Nervos intercostais
-Aumento da pressão intra- abdominal e estabili- zação da coluna lombar
+Aumento da pressão intra- abdominal e Estabilização da coluna lombar
 Transverso
 Quadrado lombar
 Crista ilíaca
@@ -498,7 +498,7 @@ Rotação lateral do quadril
 Transverso
 Quadrado femoral
 Tuberosidade Isquiática
-Crista Intertro- cantérica
+Crista intertrocantérica
 Nervo para o músculo quadrado femoral
 Rotação lateral do quadril
 Transverso
