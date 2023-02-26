@@ -88,3 +88,63 @@ Falanges média e distal do 2° ao 5° dedos
 Nervo radial
 Extensão do punho
 Sagital
+EXTENSOR DO DEDO MÍNIMO
+Epicôndilo lateral do úmero
+Tendão extensor do 5° dedo
+Nervo radial
+Extensão do 5° dedo
+Sagital
+EXTENSOR DO DEDO INDICADOR
+Face posterior da ulna
+Tendão extensor do 2° dedo
+Nervo radial
+Extensão do 2° dedo
+Sagital e transverso
+EXTENSOR CURTO DO POLEGAR
+Face posterior do rádio
+Face dorsal da falange proximal do polegar
+Nervo radial
+Extensão do polegar
+Sagital e frontal
+EXTENSOR LONGO DO POLEGAR
+Face posterior do 1/3 médio da ulna
+Falange distal do polegar
+Nervo radial
+Extensão do polegar
+Sagital, frontal e transverso
+PRONADOR REDONDO
+Epicôndilo medial do úmero e processo coronoide da ulna
+Metade da face lateral do rádio
+Nervo mediano
+Pronação e flexão do antebraço
+Transverso e sagital
+PRONADOR QUADRADO
+1/4 da face anterior da ulna
+1/4 da face anterior do rádio
+Nervo mediano
+Pronação do antebraço
+Transverso
+PALMAR LONGO
+Epicôndilo medial do úmero
+Aponeurose palmar
+Nervo mediano
+Flexão de punho
+Sagital
+FLEXOR RADIAL DO CARPO
+Epicôndilo medial do úmero
+Base do 2° Metacarpal
+Nervo mediano
+Flexão e abdução de punho (desvio radial)
+Sagital, frontal e transverso
+FLEXOR ULNAR DO CARPO
+Epicôndilo medial e olécrano
+Pisiforme, hamato e base do 5° metacarpal
+Nervo ulnar
+Flexão e adução do punho (desvio ulnar)
+Sagital e frontal
+FLEXOR SUPERFICIAL DOS DEDOS
+Epicôndilo medial e processo coronoide da ulna
+Base da falange média do 2° ao 5° dedos
+Nervo mediano
+Flexão de punho e dedos
+Sagital
