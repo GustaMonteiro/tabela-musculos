@@ -1,174 +1,6 @@
-const itemsList = document.querySelector('#items-list');
 const searchBar = document.querySelector('#search-bar');
 const searchButton = document.querySelector('#search-button')
-
-const allItems = [];
-const nomes = ["Sydney Mosley",
-  "Paige Conway",
-  "Denise Marquez",
-  "Jessica Rangel",
-  "Michael Bradley",
-  "Martin Cunningham",
-  "Rachel Ross",
-  "Laura Schmidt",
-  "Jared Carpenter",
-  "Erin Hartman",
-  "Marcus Mclean",
-  "Natalie Walters",
-  "Maria Miller",
-  "James Morrison",
-  "Rhonda Ramirez",
-  "Shawn Hall",
-  "Jesse Graham",
-  "Kathryn Shannon",
-  "Jeremy Hancock",
-  "Steven Strickland",
-  "David Woodard",
-  "Ashley Gross",
-  "Charles Butler",
-  "Yolanda Reyes",
-  "Wesley Wood",
-  "Gerald Vincent",
-  "Rhonda Johnson",
-  "Andrew Anderson",
-  "Christina Holmes",
-  "Whitney Moreno",
-  "Renan Fernandes",
-  "Murilo Campos",
-  "Bruna Cunha",
-  "Luiza Azevedo",
-  "Sr. Luiz Felipe Costela",
-  "Vitor Correia",
-  "Luiz Fernando Souza",
-  "Júlia da Costa",
-  "Isabel Freitas",
-  "Sra. Bianca Fogaça",
-  "Luiz Felipe da Mata",
-  "Vicente Costa",
-  "Nicolas da Mata",
-  "Vitória Correia",
-  "Sra. Lavínia Rocha",
-  "Ana Beatriz Fernandes",
-  "Stella Moreira",
-  "Maitê Martins",
-  "Dr. Samuel Barbosa",
-  "Cauê Monteiro",
-  "Vinicius Silva",
-  "Nathan Martins",
-  "Caio Farias",
-  "Julia Ferreira",
-  "Júlia Lima",
-  "Yago da Rocha",
-  "Dr. Luigi Cardoso",
-  "Rafaela Viana",
-  "Isabelly da Rosa",
-  "Alexandre Oliveira",
-  "Dra. Sabrina Campos",
-  "Nathan Mendes",
-  "Beatriz da Mata",
-  "Dra. Helena Cardoso",
-  "Caroline Cunha",
-  "Sr. Levi Campos",
-  "Davi Lucas Azevedo",
-  "Carolina Nogueira",
-  "Luana da Paz",
-  "Sr. Marcelo Costela",
-  "Dra. Alice Freitas",
-  "Rafael da Mata",
-  "Valentina da Mota",
-  "Ryan Rodrigues",
-  "Pedro Henrique Cunha",
-  "Cecília da Conceição",
-  "Luiz Fernando Rocha",
-  "Enzo Gabriel da Rosa",
-  "Ana Carolina Ferreira",
-  "Brenda Almeida",
-  "Yuri Barros",
-  "Ana Beatriz Lopes",
-  "Elisa da Conceição",
-  "Maria Alice Araújo",
-  "Samuel Peixoto",
-  "Ana Julia Barbosa",
-  "Pedro da Cunha",
-  "Heloísa da Costa",
-  "Thiago Ribeiro",
-  "Thomas da Luz",
-  "Vinicius Pereira",
-  "Sr. Antônio das Neves",
-  "Ana Oliveira",
-  "Cauê Rezende",
-  "Maria Fernanda Cavalcanti",
-  "Pietro Correia",
-  "Stella Araújo",
-  "Sra. Clarice Peixoto",
-  "Dr. Davi Barbosa",
-  "Juliana Fernandes",
-  "Antônio Moreira",
-  "Dra. Daniela Nascimento",
-  "Stella Araújo",
-  "Ana Julia Dias",
-  "Carlos Eduardo Alves",
-  "Danilo Duarte",
-  "Samuel Dias",
-  "Maria Eduarda Aragão",
-  "Davi Luiz Cardoso",
-  "Thomas Lopes",
-  "Benjamin Oliveira",
-  "Gabriela Santos",
-  "Sr. Diogo Nogueira",
-  "Evelyn da Paz",
-  "Gabriela Ribeiro",
-  "Luiz Otávio Araújo",
-  "Dr. Pedro Vieira",
-  "Srta. Marcela Cunha",
-  "Vitor Silva",
-  "Sr. Enrico da Conceição",
-  "Enzo Gabriel Alves",
-  "Fernanda Farias",
-  "Benício Cunha",
-  "Ana Luiza da Cruz",
-  "João Pereira",
-  "Melissa da Luz",
-  "Vitor Gabriel Costela",
-  "Giovanna da Rosa",
-  "Theo da Mata",
-  "Brenda da Rocha"];
-
-for (let nome of nomes) {
-  const newLi = document.createElement('li');
-  newLi.innerText = nome;
-  allItems.push(newLi);
-}
-
-const showAllItems = () => {
-  for (let item of allItems) {
-    itemsList.appendChild(item);
-  }
-}
-
-const removeAllItems = () => {
-  while (itemsList.firstChild) {
-    itemsList.removeChild(itemsList.lastChild);
-  }
-}
-
-searchBar.addEventListener('input', e => {
-  console.log(searchBar.value);
-
-  if (!searchBar.value) return showAllItems();
-  removeAllItems();
-
-  for (let item of allItems) {
-    if (item.innerText.toLowerCase().includes(searchBar.value.toLowerCase())) {
-      itemsList.appendChild(item);
-    }
-  }
-})
-
-searchButton.addEventListener('click', e => {
-  e.preventDefault();
-  console.log(searchBar.value);
-})
+const cardList = document.querySelector('#card-list');
 
 class Muscle {
   constructor(name, origin, insertion, inervation, action, movePlan, imageId) {
@@ -182,11 +14,130 @@ class Muscle {
   }
 }
 
-const firstMuscle = new Muscle("SUBESCAPULAR", "Fossa subescapular", "Tubérculo menor do úmero (manguito rotador)", "Nervo subescapular", "Rotação medial e adução do ombro", "Transverso", "0");
+const createCard = muscle => {
+  const col = document.createElement('div');
+  col.classList.add('ol');
 
-console.log(JSON.stringify(firstMuscle));
+  const card = document.createElement('div');
+  card.classList.add('card', 'h-100');
 
-console.log(firstMuscle);
+  const image = document.createElement('img');
+  image.src = `images/${muscle.imageId}.jpg`;
+  image.alt = `Imagem do ${muscle.name.toLowerCase()}`;
+  image.classList.add('card-img-top');
 
+  const cardBody = document.createElement('div');
+  cardBody.classList.add('card-body');
 
-showAllItems();
+  const muscleName = document.createElement('h5');
+  muscleName.innerText = muscle.name;
+  muscleName.classList.add('card-title');
+
+  const infos = document.createElement('ul');
+  infos.classList.add('list-group', 'list-group-flush');
+
+  const origin = document.createElement('li');
+  origin.innerHTML = `<strong>Origem:</strong> ${muscle.origin}`;
+  origin.classList.add('list-group-item');
+
+  const insertion = document.createElement('li');
+  insertion.innerHTML = `<strong>Inserção:</strong> ${muscle.insertion}`;
+  insertion.classList.add('list-group-item');
+
+  const inervation = document.createElement('li');
+  inervation.innerHTML = `<strong>Inervação:</strong> ${muscle.inervation}`;
+  inervation.classList.add('list-group-item');
+
+  const action = document.createElement('li');
+  action.innerHTML = `<strong>Ação:</strong> ${muscle.action}`;
+  action.classList.add('list-group-item');
+
+  const movePlan = document.createElement('li');
+  movePlan.innerHTML = `<strong>Plano de Movimento:</strong> ${muscle.movePlan}`;
+  movePlan.classList.add('list-group-item');
+
+  cardBody.appendChild(muscleName);
+
+  infos.appendChild(origin);
+  infos.appendChild(insertion);
+  infos.appendChild(inervation);
+  infos.appendChild(action);
+  infos.appendChild(movePlan);
+
+  card.appendChild(image);
+  card.appendChild(cardBody);
+  card.appendChild(infos);
+
+  col.appendChild(card);
+
+  return col;
+}
+
+const musclesJson = JSON.parse('[{"name": "SUBESCAPULAR", "origin": "Fossa subescapular", "insertion": "Tubérculo menor do úmero (manguito rotador)", "inervation": "Nervo subescapular", "action": "Rotação medial e adução do ombro", "movePlan": "Transverso", "imageId": 0}, {"name": "SUPRA-ESPINHAL", "origin": "Fossa supra espinhal da escápula", "insertion": "Tubérculo maior do úmero (manguito rotador)", "inervation": "Nervo supraescapular", "action": "Abdução do ombro", "movePlan": "Frontal", "imageId": 1}]');
+
+for(let muscle of musclesJson) {
+  cardList.appendChild(createCard(new Muscle(muscle.name, muscle.origin, muscle.insertion, muscle.inervation, muscle.action, muscle.movePlan, muscle.imageId)));
+}
+
+// const subescapular = new Muscle("SUBESCAPULAR", "Fossa subescapular", "Tubérculo menor do úmero (manguito rotador)", "Nervo subescapular", "Rotação medial e adução do ombro", "Transverso", "0");
+// const supraEspinhal = new Muscle("SUPRA-ESPINHAL", "Fossa supra espinhal da escápula", "Tubérculo maior do úmero (manguito rotador)", "Nervo supraescapular", "Abdução do ombro", "Frontal", "1");
+
+// console.log(JSON.stringify(subescapular));
+
+// for (let nome of nomes) {
+//   const newLi = document.createElement('li');
+//   newLi.innerText = nome;
+//   allItems.push(newLi);
+// }
+
+// const showAllItems = () => {
+//   for (let item of allItems) {
+//     itemsList.appendChild(item);
+//   }
+// }
+
+// const removeAllItems = () => {
+//   while (itemsList.firstChild) {
+//     itemsList.removeChild(itemsList.lastChild);
+//   }
+// }
+
+// searchBar.addEventListener('input', e => {
+//   console.log(searchBar.value);
+
+//   if (!searchBar.value) return showAllItems();
+//   removeAllItems();
+
+//   for (let item of allItems) {
+//     if (item.innerText.toLowerCase().includes(searchBar.value.toLowerCase())) {
+//       itemsList.appendChild(item);
+//     }
+//   }
+// })
+
+// searchButton.addEventListener('click', e => {
+//   e.preventDefault();
+//   console.log(searchBar.value);
+// })
+
+// cardList.appendChild(createCard(subescapular));
+// cardList.appendChild(createCard(supraEspinhal));
+
+// showAllItems();
+
+      // <div class="col">
+      //   <div class="card h-100">
+      //     <img src="images/2.jpg" class="card-img-top" alt="...">
+      //     <div class="card-body">
+      //       <h5 class="card-title">Card title</h5>
+      //       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      //     </div>
+      //     <ul class="list-group list-group-flush">
+      //       <li class="list-group-item">An item</li>
+      //       <li class="list-group-item">A second item lorem</li>
+      //       <li class="list-group-item">A third item</li>
+      //       <li class="list-group-item">A third item</li>
+      //       <li class="list-group-item">A third item</li>
+      //     </ul>
+      //   </div>
+      // </div>
