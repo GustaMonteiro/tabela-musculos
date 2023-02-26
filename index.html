@@ -15,13 +15,19 @@
 </head>
 
 <body>
-  <div class="container text-center">
-    <h1>Músculos</h1>
+  <nav class="navbar sticky-top bg-body-tertiary bg-dark">
+    <div class="container-fluid">
+      <span class="fs-3 text-white bg-dark">Músculos</span>
+      <form id="search-form" class="d-flex">
+        <input class="form-control me-2" type="search" name="q" id="search-bar" placeholder="Pesquisar">
+        <!-- <button id="search-button">Pesquisar</button> -->
+      </form>
+    </div>
+  </nav>
 
-    <form id="search-form">
-      <input type="search" name="q" id="search-bar" placeholder="Pesquisar">
-      <button id="search-button">Pesquisar</button>
-    </form>
+  <div class="container text-center">
+    <!-- <h1>Músculos</h1> -->
+
 
     <div id="card-list" class="row row-cols-1 row-cols-md-3 g-4"></div>
   <script src="app.js"></script>
