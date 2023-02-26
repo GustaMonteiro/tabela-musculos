@@ -1,150 +1,738 @@
-SUBESCAPULAR
-Fossa subescapular
+Subescapular
+Fossa Subescapular
 Tubérculo menor do úmero (manguito rotador)
 Nervo subescapular
-Rotação medial e adução do ombro
+Rotação medial e Adução do ombro
 Transverso
-SUPRA-ESPINHAL
-Fossa supra espinhal da escápula
+Supra-espinhal
+Fossa supra espinhal da Escápula
 Tubérculo maior do úmero (manguito rotador)
 Nervo supraescapular
 Abdução do ombro
 Frontal
-INFRA-ESPINHAL
+Infra-espinhal
 Superfície posterior da escápula
 Tubérculo maior do úmero (manguito rotador)
 Nervo supraescapular
-Rotação lateral e adução do ombro
+Rotação lateral e Adução do ombro
 Transverso
-REDONDO MENOR
+Redondo menor
 Escápula posterior, borda lateral
 Tubérculo maior do úmero (manguito rotador)
 Nervo axilar
-Rotação lateral e adução do ombro
+Rotação lateral e Adução do ombro
 Transverso
-REDONDO MAIOR
-Face posterior do ângulo inferior da escápula
-Lábio medial do Sulco intertubercu lar do úmero
+Redondo maior
+Face Posterior do ângulo inferior da Escápula
+Lábio medial do sulco intertubercu lar do úmero
 Nervo subescapular
-Rotação medial e adução do ombro
-Sagital, frontal e transverso
-DELTÓIDE
-Terço final da clavícula, acrômio e espinha da escápula
-Tuberosidade deltoidea do úmero
+Rotação medial e Adução do ombro
+Sagital, Frontal e transverso
+Deltóide
+Terço final da clavícula, Acrômio e espinha da Escápula
+Tuberosidade deltoidea do Úmero
 Nervo axilar
 Abdução, extensão e flexão
-Frontal, sagital e Transverso
-BÍCEPS BRAQUIAL
-Tubérculo supra glenoidal e processo coracoide
-Tuberosidade do rádio
-Nervo musculocutâneo
+Frontal, sagital e transverso
+Bíceps braquial
+Tubérculo supra glenoidal e Processo coracoide
+Tuberosidade Do rádio
+Nervo muscu- locutâneo
 Flexão e supinação do antebraço
-Transverso, sagital e frontal
-BRAQUIAL
-Face anterior da metade distal do úmero
+Transverso, sagital e Frontal
+Braquial
+Face anterior da Metade distal do Úmero
 Processo coronoide da ulna
-Nervo musculocutâneo
+Nervo muscu- locutâneo
 Flexão do antebraço
 Sagital
-CORACOBRAQUIAL
-Processo coracoide da escápula
+Coracobraquial
+Processo coracoide da Escápula
 Terço médio do úmero
-Nervo musculocutâneo
-Flexão e Adução do ombro
+Nervo muscu- locutâneo
+Flexão e adução do ombro
 Transverso
-TRÍCEPS BRAQUIAL
-Tubérculo infraglenoidal, face posterior do úmero e sulco radial
+Tríceps braquial
+Tubérculo infragle- noidal, face Posterior do úmero e sulco radial
 Olécrano
 Nervo radial
 Extensão do antebraço
-Sagital, frontal e transverso
-BRAQUIORRADIAL
-Crista supraepicondilar lateral do úmero
-Processo estiloide do rádio
+Sagital, Frontal e transverso
+Braquiorradial
+Crista Supraepi- condilar lateral do Úmero
+Processo estiloide do Rádio
 Nervo radial
-Pronação, supinação e Flexão do antebraço
+Pronação, supinação e flexão do antebraço
 Sagital e transverso
-EXTENSOR RADIAL LONGO DO CARPO
-Crista supraepicondilar lateral do úmero
+Extensor radial longo do carpo
+Crista Supraepi- condilar lateral do Úmero
 Base do 2° metacarpal
 Nervo radial
 Extensão do punho e abdução da mão (desvio radial)
 Sagital, transverso e frontal
-EXTENSOR RADIAL CURTO DO CARPO
-Epicôndilo lateral do úmero
+Extensor radial curto do carpo
+Epicôndilo lateral do Úmero
 Base do 3° metacarpal
 Nervo radial
 Extensão do punho
-Sagital e frontal
-EXTENSOR ULNAR DO CARPO
-Epicôndilo lateral do úmero
+Sagital e Frontal
+Extensor ulnar do carpo
+Epicôndilo lateral do Úmero
 Base do 5° metacarpal
 Nervo radial
-Extensão e adução do punho (desvio ulnar)
-Sigital e frontal
-EXTENSOR DOS DEDOS
+Extensão e Adução do punho (desvio ulnar)
+Sigital e Frontal
+Extensor dos dedos
 Epicôndilo lateral do úmero
-Falanges média e distal do 2° ao 5° dedos
+Falanges média e distal do 2° Ao 5° dedos
 Nervo radial
 Extensão do punho
 Sagital
-EXTENSOR DO DEDO MÍNIMO
+Extensor do dedo mínimo
 Epicôndilo lateral do úmero
 Tendão extensor do 5° dedo
 Nervo radial
 Extensão do 5° dedo
 Sagital
-EXTENSOR DO DEDO INDICADOR
-Face posterior da ulna
+Extensor do dedo indicador
+Face Posterior da ulna
 Tendão extensor do 2° dedo
 Nervo radial
 Extensão do 2° dedo
 Sagital e transverso
-EXTENSOR CURTO DO POLEGAR
-Face posterior do rádio
-Face dorsal da falange proximal do polegar
+Extensor curto do polegar
+Face Posterior do rádio
+Face dorsal da falange Proximal do polegar
 Nervo radial
 Extensão do polegar
-Sagital e frontal
-EXTENSOR LONGO DO POLEGAR
-Face posterior do 1/3 médio da ulna
-Falange distal do polegar
+Sagital e Frontal
+Extensor longo do polegar
+Face Posterior do 1/3 médio da ulna
+Falange distal do Polegar
 Nervo radial
 Extensão do polegar
-Sagital, frontal e transverso
-PRONADOR REDONDO
+Sagital, Frontal e transverso
+Pronador redondo
 Epicôndilo medial do úmero e processo coronoide da ulna
 Metade da face lateral do rádio
 Nervo mediano
 Pronação e flexão do antebraço
 Transverso e sagital
-PRONADOR QUADRADO
+Pronador quadrado
 1/4 da face anterior da ulna
 1/4 da face anterior do rádio
 Nervo mediano
 Pronação do antebraço
 Transverso
-PALMAR LONGO
-Epicôndilo medial do úmero
+Palmar longo
+Epicôndilo medial do Úmero
 Aponeurose palmar
 Nervo mediano
 Flexão de punho
 Sagital
-FLEXOR RADIAL DO CARPO
+Flexor radial do carpo
 Epicôndilo medial do úmero
-Base do 2° Metacarpal
+Base do 2° metacarpal
 Nervo mediano
 Flexão e abdução de punho (desvio radial)
-Sagital, frontal e transverso
-FLEXOR ULNAR DO CARPO
+Sagital, Frontal e transverso
+Flexor ulnar do carpo
 Epicôndilo medial e olécrano
 Pisiforme, hamato e base do 5° metacarpal
 Nervo ulnar
 Flexão e adução do punho (desvio ulnar)
-Sagital e frontal
-FLEXOR SUPERFICIAL DOS DEDOS
-Epicôndilo medial e processo coronoide da ulna
-Base da falange média do 2° ao 5° dedos
+Sagital e Frontal
+Flexor superficial dos dedos
+Epicôndilo medial e Processo coronoide da ulna
+Base da falange média do 2° Ao 5° dedos
 Nervo mediano
 Flexão de punho e dedos
 Sagital
+Flexor profundo dos dedos
+Face anterior da ulna e Membrana interóssea
+Base da falange distal do 2° Ao 5° dedos
+Nervo mediano e ulnar
+Flexão de punho e dedos
+Sagital
+Flexor longo do polegar
+Face anterior do rádio e membrana interóssea
+Falange distal do Polegar
+Nervo mediano
+Flexão do polegar
+Sagital e Frontal
+Abdutor longo do polegar
+Face Posterior do rádio e ulna e membrana interóssea
+Base do 1° metacarpal
+Nervo radial
+Abdução do polegar
+Frontal, sagital e transverso
+Ancôneo
+Epicôndilo lateral do Úmero
+Olécrano
+Nervo radial
+Extensão do antebraço
+Sagital
+Supinador
+Epicôndilo lateral do úmero
+Face lateral superior do rádio
+Nervo radial
+Supinação do antebraço
+Transverso
+Abdutor curto do polegar
+Escafoide e Trapézio
+Falange Proximal do polegar
+Nervo mediano
+Abdução e flexão do polegar
+---
+Flexor curto do polegar
+Trapézio, trapezoide e capitato
+Falange Proximal do polegar
+Nervo mediano
+Flexão do polegar
+---
+Oponente do polegar
+Trapézio
+1° metacarpal
+Nervo mediano
+Oposição do polegar
+---
+Adutor do polegar
+2° e 3° metacarpal e Capitato
+Falange Proximal do polegar
+Nervo ulnar
+Adução do polegar
+---
+Abdutor do dedo mínimo
+Pisiforme e tendão flexor ulnar do carpo
+Falange Proximal do dedo mínimo
+Nervo ulnar
+Abdução do dedo mínimo
+---
+Palmar curto
+Aponeurose palmar
+Pele da Margem medial da palma da Mão
+Nervo ulnar
+Auxilia o movimento em garra
+---
+Oponente do dedo mínimo
+Hamato
+5° metacarpal
+Nervo ulnar
+Oposição do dedo mínimo
+---
+Flexor curto do dedo mínimo
+Hamato
+Falange Proximal do dedo mínimo
+Nervo ulnar
+Flexão do dedo mínimo
+---
+Lumbricais
+Tendões Flexores dos dedos
+Borda radial No dorso dos dedos
+Nervo ulnar e mediano
+Flexão e extensão do 2° ao 5° dedos
+---
+Interósseos palmares
+Extensão dos ossos metacárpicos dos dedos
+Base da falange Proximal
+Nervo ulnar
+Adução dos dedos
+---
+Interósseos dorsais
+Borda ulnar e radial dos Ossos metacárpicos
+Base da falange Proximal
+Nervo ulnar
+Abdução dos dedos
+---
+Platisma
+Base da Mandíbula
+Pele por Baixo da clavícula e Fáscia peitoral
+Nervo facial
+Traciona o Lábio inferior e o ângulo bucal
+Sagital, transverso e frontal
+Esternocleidomastoideo
+Clavícula e Manúbrio
+Processo Mastoide
+Nervo acessório e nervo cervical
+Flexão da cabeça
+Sagital, transverso e frontal
+Escaleno anterior
+Vértebras
+Costelas
+Nervos cervicais
+Inclinação do pescoço e auxilia na Inspiração
+---
+Escaleno médio
+Vértebras
+Costelas
+Nervos cervicais
+Inclinação do pescoço e auxilia na Inspiração
+---
+Escaleno posterior
+Vértebras
+Costelas
+Nervos cervicais
+Inclinação do pescoço e auxilia na Inspiração
+---
+Trapézio
+Linha nucal Superior, ligamento nucal e Processos espinhosos da c7 à t12
+Borda Posterior da clavícula, Acrômio e espinha da Escápula
+Nervo acessório
+Elevação e depressão do ombro e adução e rotação superior das Escápulas
+Frontal, sagital e transverso
+Latíssimo do dorso
+Processos Espinhosos das Vértebras torácicas e lombares
+Face Proximal e distal do Úmero
+Nervo toracodorsal
+Adução, extensão e rotação medial do Braço e depressão do ombro
+Sagital, Frontal e transverso
+Romboides
+Processos Espinhosos da c7 à t5
+Borda medial da escápula
+Nervo dorsal da escápula
+Adução e rotação inferior das escápulas e elevação do ombro
+Transverso E frontal
+Levantador da Escápula
+Processo transverso do atlas até à c4
+ngulo superior da escápula
+Nervo dorsal da escápula
+Elevação e adução da escápula
+Frontal
+Serrátil posterior superior
+Processos Espinhosos da c7 à t3
+Borda Superior e face externa da 2° a 5° Costelas
+Nervos intercostais
+Elevação das primeiras costelas (ação inspiratória)
+---
+Serrátil posterior inferior
+Processos Espinhosos da t11 à l3
+Borda inferior e face externa das 4 últimas costelas
+Nervos intercostais
+Depressão das últimas costelas (ação expiratória)
+---
+Esplênio da cabeça
+Processos Espinhosos da c7 à t4
+1/3 lateral da linha nucal Superior e processo mastoide do osso temporal
+Nervos espinhais
+Extensão, inclinação e Rotação homolateral da cabeça
+Sagital, transverso e frontal
+Esplênio do pescoço
+Processo Espinhoso da t3 à t6
+Processo transverso das 3 primeiras Vértebras cervicais
+Nervos espinhais
+Extensão, inclinação e Rotação homolateral da cabeça
+Sagital, transverso e frontal
+Semiespinhal da Cabeça
+Processo transverso de c7 à t7
+Processo articular de c4 à c6 e Processo espinhoso de c7
+Nervos espinhais
+Extensão e inclinação homolateral da cabeça
+---
+Semiespinhal do Pescoço
+Processo transverso de t1 à t6
+Processo Espinhoso c1 à c7
+Nervos espinhais
+Extensão e rotação contrala- teral do Pescoço
+---
+Semiespinhal do tórax
+Processos transversos Das t6 à t10
+Processo Espinhoso c6 à t4
+Nervos espinhais
+Extensão e rotação contrala- teral do Pescoço
+---
+Eretor da espinha
+Porção da cabeça: Ligado ao semi- espinhal da Cabeça<br><br>Porção do pescoço: ligamento nucal e Processos espinhosos de c7 a t2<br><br>Porção do tórax: processos Espinhosos t11 a l2
+Porção do pescoço: processos espinhosos c2 a c4<br><br>Porção do tórax: processos espinhosos das Torácicas superiores
+Nervos espinhais
+Extensão da coluna vertebral
+Sagital, Frontal e transverso
+Rotadores
+Processos transversos das Vértebras cervicais, torácicas e lombares
+Lâminas e Processos transverso da vértebra acima
+Nervos espinhais
+Rotação e flexão lateral da Coluna
+---
+Peitoral maior
+Borda anterior da clavícula e face anterior do Esterno até a 7° costela
+Crista do Tubérculo maior
+Nervos peitorais lateral e medial
+Adução, rotação medial e Flexão do ombro
+Transverso E frontal
+Peitoral menor
+Processo coracoide
+Face externa da 3°, 4° e 5° costelas
+Nervo peitoral medial
+Depressão do ombro, rotação inferior da Escápula e elevação das Costelas
+Transverso E frontal
+Serrátil anterior
+Superfícies externas das 8-9 primeiras costelas
+Face costal Da margem medial da Escápula
+Nervo torácico longo
+Ação inspiratória, Rotação, abdução e depressão da Escápula
+Transverso E frontal
+Subclávio
+Face inferior da clavícula 1° costela e cartilagem costal
+Face inferior da clavícula
+Nervo do subclávio
+Depressão da clavícula e Do ombro
+Transverso E frontal
+Intercostais internos
+Borda inferior da costela
+Borda superior da costela
+Nervos intercostais
+Depressão das costelas e auxilia na Expiração
+---
+Intercostais externos
+Borda inferior da costela
+Borda superior da costela
+Nervos intercostais
+Elevação das costelas e auxilia na Inspiração
+---
+Levantadores das costelas
+Processo transverso da 7° Vértebra cervical à 11° torácica
+Face externa da 1° à 12° costela
+Nervos intercostais
+Elevação das costelas
+---
+Subcostais
+Face interna da costela
+Face interna da 2° ou 3° costela
+Nervos intercostais
+Estabili- Zação intercostal
+---
+Transverso do tórax
+Face interna Do esterno
+Face interna da 2° a 6° cartilagem costais
+Nervos intercostais
+Estabili- Zação da parte antero- inferior do tórax
+---
+Reto do abdome
+Processo xifoide, 5° a 6° cartilagens costais
+Púbis e sínfise Púbica
+Nervos intercostais
+Flexão do tronco
+Sagital e Frontal
+Oblíquo externo do abdome
+Face externa das Últimas 7 costelas
+1/2 anterior da crista ilíaca, eias, tubérculo e púbis e linha alba
+Nervos intercostais
+Flexão e rotação do tronco
+Sagital, Frontal e transverso
+Oblíquo interno do abdome
+Aponeurose toraco- lombar
+Crista ilíaca, eias e ligamento inguinal
+Nervos intercostais
+Flexão e rotação do tronco
+Sagital, Frontal e transverso
+Transverso do abdome
+Cartilagens costais, Aponeurose toracolom- bar, crista ilíaca e Ligamento inguinal
+Púbis e linha alba
+Nervos intercostais
+Aumento da pressão intra- abdominal e estabili- zação da coluna lombar
+Transverso
+Quadrado lombar
+Crista ilíaca
+12° costela E processo transverso de 1° a 4° Vértebra lombar
+Nervo intercostal
+Inclinação homolateral do tronco e depressão da 12° costela
+Frontal, sagital
+Ilíaco
+2/3 Superiores da fossa ilíaca, crista ilíaca e sacro
+Trocanter Menor do fêmur
+Nervo femoral
+Flexão de quadril, Anteroversão da pelve e Coluna lombar
+Sagital e transverso
+Psoas maior
+Processo transverso das Vértebras lombares e discos interver- Tebrais
+Trocanter Menor do fêmur
+Nervos lombares
+Flexão da coxa e da Coluna lombar e inclinação homolateral
+Sagital e transverso
+Glúteo máximo
+Ílio, sacro e Cóccix
+Trato iliotibial e Tuberosidade glútea do fêmur
+Nervo glúteo inferior
+Extensão e rotação lateral do quadril
+Sagital, transverso e frontal
+Glúteo médio
+Face lateral Do osso ilíaco
+Troncanter maior do Fêmur
+Nervo glúteo superior
+Abdução e rotação medial do quadril
+Frontal, transverso e sagital
+Glúteo mínimo
+Face lateral Do osso ilíaco
+Trocanter maior do Fêmur
+Nervo glúteo superior
+Abdução e rotação medial de quadril
+Frontal, transverso e sagital
+Piriforme
+Face pélvica do sacro
+Trocanter maior do fêmur
+Nervo para o músculo piriforme
+Abdução e rotação lateral do quadril
+Transverso
+Gêmeo superior
+Espinha isquiática
+Trocanter maior do fêmur
+Nervo para o músculo gêmeo superior
+Rotação lateral do quadril
+Transverso
+Gêmeo inferior
+Tuberosidade isquiática
+Trocanter maior do fêmur
+Nervo para o músculo gêmeo inferior e Quadrado femoral
+Rotação lateral do quadril
+Transverso
+Obturatório interno
+Membrana Obturatória e ísquio
+Trocanter maior do Fêmur
+Nervo para o músculo obturatório interno
+Rotação lateral do quadril
+Transverso
+Obturatório externo
+Margem do forame obturado
+Fossa trocantérica Do fêmur
+Nervo obturatório
+Rotação lateral do quadril
+Transverso
+Quadrado femoral
+Tuberosidade Isquiática
+Crista Intertro- cantérica
+Nervo para o músculo quadrado femoral
+Rotação lateral do quadril
+Transverso
+Tensor da fáscia lata
+Crista ilíaca e espinha ilíaca ântero- superior
+Trato iliotibial
+Nervo glúteo superior
+Flexão, abdução e rotação medial do quadril e Rotação lateral do Joelho
+Frontal, sagital e transverso
+Sartório
+Espinha ilíaca anteros- superior
+Tuberosidade da tíbia (pata de Ganso)
+Nervo femoral
+Abdução, flexão e rotação lateral da Coxa e flexão e rotação medial do joelho
+Sagital, transverso e frontal
+Reto femoral
+Espinha ilíaca ante- roinferior
+Patela e Tuberosidade da tíbia
+Nervo femoral
+Flexão do quadril e Extensão do joelho
+Sagital
+Vasto medial
+Linha áspera e linha inter- trocantérica
+Patela e Tuberosidade da tíbia
+Nervo femoral
+Extensão do joelho
+Sagital
+Vasto lateral
+Trocanter maior, linha áspera e linha inter- trocantérica
+Patela e Tuberosidade da tíbia
+Nervo femoral
+Extensão do joelho
+Sagital
+Vasto intermédio
+Face anterior e lateral do Fêmur
+Patela e Tuberosidade da tíbia
+Nervo femoral
+Extensão do joelho
+Sagital
+Bíceps femoral
+Tuberosidade Isquiática
+Côndilo lateral da Tíbia e cabeça da Fíbula
+Nervo isquiático
+Extensão do quadril, Flexão e rotação lateral do Joelho
+Sagital e transvrso
+Semitendinoso
+Tuberosidade Isquiática
+Superfície medial da Tuberosidade da tíbia (pata de Ganso)
+Nervo isquiático
+Extensão do quadril, Flexão e rotação medial do Joelho
+Sagital e transverso
+Semimembranoso
+Tuberosidade Isquiática
+Côndilo medial da Tíbia
+Nervo isquiático
+Extensão do quadril, Flexão e rotação medial do Joelho
+Sagital e transverso
+Grácil
+Ramo inferior do púbis
+Superfície medial da Tuberosidade da tíbia (pata de Ganso)
+Nervo obturatório
+Adução da coxa, flexão e rotação medial do Joelho
+Frontal, sagital e tansverso
+Pectíneo
+Ramo superior do púbis
+Linha pectínea do fêmur
+Nervo femoral
+Flexão do quadril e Adução da coxa
+Sagital, Frontal e transverso
+Adutor longo
+Superfície anterior do púbis e sínfise Púbica
+Linha áspera
+Nervo obturatório
+Adução da coxa
+Frontal e sagital
+Adutor curto
+Ramo inferior do púbis
+Linha áspera
+Nervo obturatório
+Adução da coxa
+Frontal, transverso e sagital
+Adutor magno
+Tuberosidade Isquiática, ramo do púbis e do ísquio
+Linha áspera Do fêmur e tubérculo adutor
+Nervo obturatório
+Adução da coxa
+Frontal, transverso e sagital
+Tibial anterior
+Côndilo lateral e Metade proximal da face lateral da tíbia
+Cuneiforme medial e base do 1° metatarsal
+Nervo fibular profundo
+Dorsiflexão e inversão do pé
+Sagital e Frontal
+Extensor longo dos dedos
+Côndilo lateral da Tíbia, fíbula e membrana interóssea
+Falanges média e distal do 2° Ao 5° dedos
+Nervo fibular profundo
+Dorsiflexão, eversão do pé e extensão dos dedos
+Sagital e Frontal
+Extensor longo do hálux
+Fíbula anterior e Membrana interóssea
+Falange distal do Hálux
+Nervo fibular profundo
+Extensão do hálux, dorsiflexão e inversão do pé
+Sagital e Frontal
+Fibular terceiro
+1/3 distal da face anterior da Fíbula
+Base do 5° metatarsal
+Nervo fibular profundo
+Eversão do pé
+Sagital e Frontal
+Fibular longo
+Côndilo lateral da Tíbia e cabeça da Fíbula
+1° metatarsal e Cuneiforme medial
+Nervo fibular superficial
+Plantiflexão e eversão do pé
+Frontal e sagital
+Fibular curto
+Face lateral Da fíbula
+Base do 5° metatarsal
+Nervo fibular superficial
+Plantiflexão e eversão do pé
+Frontal e sagital
+Gastrocnêmio medial / lateral
+Côndilo medial e lateral do Fêmur
+Calcâneo
+Nervo tibial
+Flexão do joelho e plantiflexão do tornozelo
+Sagital
+Sóleo
+Face Posterior da tíbia e cabeça da Fíbula
+Calcâneo
+Nervo tibial
+Plantiflexão do tornozelo
+Sagital
+Plantar delgado
+Côndilo lateral do Fêmur
+Calcâneo
+Nervo tibial
+Auxilia o tríceps sural
+Frontal e sagital
+Poplíteo
+Côndilo lateral do Fêmur
+Face Posterior da tíbia
+Nervo tibial
+Flexão e rotação medial do Joelho
+Transverso e sagital
+Flexor longo dos dedos
+Face Posterior da tíbia
+Falanges distais do 2° Ao 5° dedos
+Nervo tibial
+Plantiflexão e inversão do tornozelo
+Sagital e Frontal
+Flexor longo do hálux
+Face Posterior da fíbula e membrana interóssea
+Falange distal do Hálux
+Nervo tibial
+Flexão do hálux, plantiflexão e inversão do tornozelo
+Sagital e Frontal
+Tibial posterior
+Face Posterior da tíbia e fíbula
+3 Cuneiformes, cuboide, navicular e base do 2° Ao 4° metatarsais
+Nervo tibial
+Plantiflexão e inversão do pé
+Frontal e sagital
+Abdutor do hálux
+Calcâneo
+Flange Proximal do hálux
+Nervo plantar medial
+Flexão e abdução do hálux
+---
+Flexor curto do hálux
+Cuboide e cuneiforme lateral
+Falange Proximal do hálux
+Nervo plantar medial
+Flexão da falange Proximal do hálux
+---
+Adutor do hálux
+2°, 3° e 4° metatarsais
+Falange Proximal do hálux
+Nervo plantar lateral
+Adução do hálux
+---
+Abdutor do dedo mínimo
+Calcâneo
+Falange Proximal do 5° dedo
+Nervo plantar lateral
+Abdução do 5° dedo
+---
+Flexor curto do dedo mínimo
+Cuboide
+Falange Proximal do 5° dedo
+Nervo plantar lateral
+Flexão da falange Proximal do 5° dedo
+---
+Flexor curto dos dedos
+Calcâneo e Aponeurose plantar
+Flange intermédia do 2° ao 5° dedos
+Nervo plantar medial
+Flexão dos dedos
+---
+Quadrado plantar
+Calcâneo
+Tendões do Flexor dos dedos
+Nervo plantar lateral
+Flexão dos dedos
+---
+Lumbricais
+Tendão do flexor longo dos dedos
+Tendão do extensor longo dos dedos e falanges Proximais
+Nervo plantar medial e plantar lateral
+Flexão das falanges Proximais
+---
+Interósseos plantares
+Borda medial do 3° ao 5° Metatarsos
+Borda medial das falanges Proximais do 3° ao 5° dedos
+Nervo plantar lateral
+Adução e flexão dos dedos
+---
+Interósseos dorsais
+Entre os Ossos metatársicos
+Bases das falanges Proximais do 2° ao 4° dedos
+Nervo plantar lateral
+Abdução e flexão dos dedos
+---
+Extensor curto dos dedos
+Calcâneo
+Tendão do 2°, 3° e 4° Extensor longo dos dedos
+Nervo fibular profundo
+Extensão do 2° ao 4° dedos
+---
+Extensor curto do hálux
+Calcâneo
+Falange Proximal do hálux
+Nervo fibular profundo
+Extensão do hálux
+---
