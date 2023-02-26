@@ -34,30 +34,30 @@ const createCard = muscle => {
   cardBody.classList.add('card-body');
 
   const muscleName = document.createElement('h5');
-  muscleName.innerText = muscle.name;
+  muscleName.innerText = muscle.name.toUpperCase();
   muscleName.classList.add('card-title');
 
   const infos = document.createElement('ul');
   infos.classList.add('list-group', 'list-group-flush');
 
   const origin = document.createElement('li');
-  origin.innerHTML = `<strong>Origem:</strong> ${muscle.origin}`;
+  origin.innerHTML = `<strong>ORIGEM:</strong> ${muscle.origin.toUpperCase()}`;
   origin.classList.add('list-group-item');
 
   const insertion = document.createElement('li');
-  insertion.innerHTML = `<strong>Inserção:</strong> ${muscle.insertion}`;
+  insertion.innerHTML = `<strong>INSERÇÃO:</strong> ${muscle.insertion.toUpperCase()}`;
   insertion.classList.add('list-group-item');
 
   const inervation = document.createElement('li');
-  inervation.innerHTML = `<strong>Inervação:</strong> ${muscle.inervation}`;
+  inervation.innerHTML = `<strong>INERVAÇÃO:</strong> ${muscle.inervation.toUpperCase()}`;
   inervation.classList.add('list-group-item');
 
   const action = document.createElement('li');
-  action.innerHTML = `<strong>Ação:</strong> ${muscle.action}`;
+  action.innerHTML = `<strong>AÇÃO:</strong> ${muscle.action.toUpperCase()}`;
   action.classList.add('list-group-item');
 
   const movePlan = document.createElement('li');
-  movePlan.innerHTML = `<strong>Plano de Movimento:</strong> ${muscle.movePlan}`;
+  movePlan.innerHTML = `<strong>PLANO DE MOVIMENTO:</strong> ${muscle.movePlan.toUpperCase()}`;
   movePlan.classList.add('list-group-item');
 
   cardBody.appendChild(muscleName);
